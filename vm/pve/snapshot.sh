@@ -21,11 +21,11 @@ done
 
 # 在此写入你想要备份的LXC ids
 # 如 lxcids=(100 101 102)
-lxcids=(103 104 105)
+#lxcids=(103 104 105)
 
 # 开始创建与删除过期快照
-for lxcid in ${lxcids[@]}
-do
-    pct delsnapshot $lxcid snapshot_$deldate
-    pct snapshot $lxcid snapshot_$date --description 'Automatic snapshot creation on '$date
-done
+#for lxcid in ${lxcids[@]}
+#do
+#    pct delsnapshot $lxcid snapshot_$deldate
+#    pct snapshot $lxcid snapshot_$date --description 'Automatic snapshot creation on '$date
+#done

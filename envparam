@@ -1,3 +1,6 @@
-PATH="$PATH:/usr/local/go/bin"
-PYTHONPATH="/usr/local/python/lib/python/site-packages"
-
+export PYTHONPATH="/usr/local/python/lib/python/site-packages"
+export PATH=$PATH:/usr/local/go/bin
+export PATH=/home/ducan/bin:$PATH
+export LD_LIBRARY_PATH=/home/ducan/lib:$PATH
+export git config --global user.email "413533852.com"
+export git config --global user.name "ducan"
