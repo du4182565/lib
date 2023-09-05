@@ -1,0 +1,11 @@
+[Desktop Entry]
+Exec=/home/ducan/devtools/jetbrain/webstorm/bin/webstorm.sh
+GenericName=webstorm
+Name=webstorm
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Network;RemoteControl;
+Icon=/home/ducan/devtools/jetbrain/webstorm/bin/webstorm.png
+# Remove under line for fixing icon bug in taskbar
+#StartupWMClass=sunloginclient
